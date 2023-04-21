@@ -56,6 +56,7 @@ function LoginPage() {
                   autoClose: 1000,
                })
             } else {
+               localStorage.setItem('jwt', data.token)
                toast.success(`Let's fly!`, {
                   theme: 'colored',
                   hideProgressBar: true,

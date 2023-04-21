@@ -26,6 +26,8 @@ import { RequireAuth } from './components/RequireAuth'
 import { createTheme } from '@mui/material/styles'
 import { ThemeProvider } from '@mui/material/styles'
 import { StyledEngineProvider } from '@mui/material/styles'
+import CommentSectionTest from './components/comments/deletest'
+
 
 const theme = createTheme({
    palette: {
@@ -62,6 +64,8 @@ function App() {
             <Route path="/account" element={<AccountPage />} />
             <Route path="/create" element={<CreatePost />} />
             <Route path="/home" element={<Home />} />
+            {/*<Route path="/toast" element={<Toast />} />*/}
+            {/* <Route path="/test" element={<CommentSectionTest />} /> */}
          </Route>
       )
    )
