@@ -65,7 +65,7 @@ function App() {
             <Route path="/create" element={<CreatePost />} />
             <Route path="/home" element={<Home />} />
             {/*<Route path="/toast" element={<Toast />} />*/}
-            <Route path="/test" element={<CommentSectionTest />} />
+            {/* <Route path="/test" element={<CommentSectionTest />} /> */}
          </Route>
       )
    )
