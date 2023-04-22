@@ -25,9 +25,6 @@ function LoginPage() {
    const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
       e.preventDefault()
 
-      console.log('handleLogin launched')
-      console.log(authed)
-
       setEmailErr(false)
       setPasswordErr(false)
 
@@ -79,6 +76,7 @@ function LoginPage() {
    }
 
    useEffect(() => {
+      console.log(authed);
       if (authed) {
          setTimeout(() => navigate('/grid'), 700)
       }
