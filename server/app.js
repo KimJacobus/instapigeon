@@ -27,13 +27,13 @@ app.use(require("./routes/auth.routes"))
 app.use(require("./routes/post.routes"))
 app.use(require("./routes/user.routes"))
 
-// if (process.env.NODE_ENV == "production") {
-//    app.use(express.static("../Front/dist"))
-//    const path = require("path")
-//    app.get("*", (req, res) => {
-//       res.sendFile(path.resolve(__dirname, "../Front/dist", "index.html"))
-//    })
-// }
+if (process.env.NODE_ENV == "production") {
+   app.use(express.static("../Front/dist"))
+   const path = require("path")
+   app.get("*", (req, res) => {
+      res.sendFile(path.resolve(__dirname, "../Front/dist", "index.html"))
+   })
+}
 
 app.listen(PORT, () => {
    console.log("server is running on", PORT)
