@@ -35,7 +35,7 @@ function LoginPage() {
          setPasswordErr(true)
       }
 
-      fetch('/signin', {
+      fetch('https://instapigeon-server.onrender.com/signin', {
          method: 'POST',
          headers: { 'Content-Type': 'application/json' },
          body: JSON.stringify({
