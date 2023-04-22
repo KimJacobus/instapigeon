@@ -83,14 +83,14 @@ const CommentSectionTWo = () => {
                     <form
                        onSubmit={(event) => {
                           event.preventDefault()
-                          const reply = (event.target as HTMLFormElement)
-                             .elements.reply.value
-                          if (reply !== '') {
-                             handleReply(index, reply)
-                             ;(
-                                event.target as HTMLFormElement
-                             ).elements.reply.value = ''
-                          }
+                        //   const reply = (event.target as HTMLFormElement)
+                        //      .elements.reply.value
+                        //   if (reply !== '') {
+                        //      handleReply(index, reply)
+                        //      ;(
+                        //         event.target as HTMLFormElement
+                        //      ).elements.reply.value = ''
+                        //   }
                        }}
                     >
                        <input
