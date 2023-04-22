@@ -29,9 +29,9 @@ const CommentSectionTest = ({ postId }: { postId: string }) => {
            comments.map((comment, index) => (
               <div key={index}>
                  <p>{comment}</p>
-                 <button onClick={() => handleDeleteComment(comment.id)}>
+                 {/* <button onClick={() => handleDeleteComment(comment.id)}>
                     Supprimer
-                 </button>
+                 </button> */}
               </div>
            ))
         )}
