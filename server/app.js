@@ -1,8 +1,12 @@
 const express = require("express")
 const app = express()
 const mongoose = require("mongoose")
+
+require("dotenv").config();
+
+
 const PORT = process.env.PORT || 5000
-const { MONGOURI } = require("./process.env")
+const MONGOURI = process.env.MONGOURI
 
 mongoose.connect(MONGOURI, {
    useNewUrlParser: true,
