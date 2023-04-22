@@ -63,6 +63,7 @@ function LoginPage() {
                   autoClose: 500,
                })
                login()
+               navigate('/grid')
             }
          })
          .catch((error) => {
@@ -76,7 +77,7 @@ function LoginPage() {
    }
 
    useEffect(() => {
-      console.log(authed);
+      console.log(authed)
       if (authed) {
          setTimeout(() => navigate('/grid'), 700)
       }
