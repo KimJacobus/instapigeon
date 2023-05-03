@@ -6,6 +6,10 @@ an instagram for pigeons
 
 -  a picture sharing platform for sharing pictures of pigeons you see in the street ;
 
+### fly to the live link here ! : [instapigeon](https://instapigeon.herokuapp.com/)
+
+
+
 ![login](./readme-assets/login.png)
 ![grid](./readme-assets/grid.png)
 
@@ -18,10 +22,6 @@ an instagram for pigeons
 to add :
 
 // plus a slogan
-
-// link for maguette
-
-// live link
 
 // ERD, diagram de la DB
 
