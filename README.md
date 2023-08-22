@@ -61,15 +61,18 @@ Instructions for running the project locally.
 
 ### figma prototypes :
 
-[desktop](./readme-assets/instap-desktop.pdf)
-[mobile](./readme-assets/instap-phone.pdf)
-[styleguide](./readme-assets/instap-styleguide.pdf)
+<img src="./readme-assets/desktop.png" alt="Example Image" width="700"/>
+
+<br/>
+
+- [desktop](./readme-assets/instap-desktop.pdf)
+- [mobile](./readme-assets/instap-phone.pdf)
+- [styleguide](./readme-assets/instapig-styleguide.pdf)
 
 ## Dependencies used
 
 - [gsap](https://greensock.com/gsap/)
 - [gh-pages](https://github.com/tschaub/gh-pages)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
