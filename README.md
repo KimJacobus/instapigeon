@@ -70,9 +70,6 @@ Instructions for running the project locally.
 - [gsap](https://greensock.com/gsap/)
 - [gh-pages](https://github.com/tschaub/gh-pages)
 
-## Contact
-
-jacobus.kim@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
