@@ -32,33 +32,6 @@ I was walking down the street, thinking about how to put something positive into
 [![Prettier][Prettier]][Prettier-url]
 [![ESlint][ESlint]][ESlint-url]
 
-## Getting Started
-
-Instructions for running the project locally.
-
-### Prerequisites
-
-- npm (or the package manager your prefer)
-
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/KimJacobus/dashboard.git
-   ```
-2. Cd into the folder that has the package.json file then install the NPM packages
-   ```sh
-   npm install
-   ```
-3. Run the local client
-   ```sh
-   npm run dev
-   ```
-
 ### figma prototypes :
 
 <img src="./readme-assets/desktop.png" alt="Example Image" width="700"/>
